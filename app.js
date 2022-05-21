@@ -1,3 +1,19 @@
+// 1. How to install packege in (app.js) file.
+//      code here :-  npm init -y   ( install packege.json )
+//                    npm i mysql   (install packege-lock.json and mysql)
+//                    ((npm i -D nodemon) or (npm i nodemon --save-dev)) // nodemon save autometecly devDependencies key in (pachege.json) file.
+
+// 2. Go to the pachege.json file and type ( "start":"nodemon" )in scripts key
+//      "scripts": {
+//          "test": "echo \"Error: no test specified\" && exit 1",
+//          "start":"nodemon"   // run js file with npm start
+//        }
+
+// 3. how to run js file.
+//      a)  npm start
+//      b)  node (js file name)
+
+
 // first of all install snap :- sudo apt install snapd  
 // install postman :- sudo snap install postman (or) manually install 
 
